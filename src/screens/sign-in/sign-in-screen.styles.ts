@@ -1,9 +1,9 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import {Colors, Fonts} from '../../constants';
+import { Colors, Fonts } from '../../constants';
 
 export default StyleSheet.create({
   container: {
@@ -62,4 +62,11 @@ export default StyleSheet.create({
     fontFamily: Fonts.robotoRegular,
     color: Colors.black_1,
   },
+  AppNameText: {
+    fontSize: wp('8.7'),
+    fontWeight: 'bold',
+    fontFamily: Fonts.robotoRegular,
+    color: Colors.black_1,
+  },
+
 });

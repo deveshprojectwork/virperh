@@ -1,9 +1,9 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
-import {Colors, Fonts} from '../../constants';
+import { Colors, Fonts } from '../../constants';
 
 export default StyleSheet.create({
   container: {
@@ -15,6 +15,8 @@ export default StyleSheet.create({
     paddingVertical: hp('3%'),
   },
   inputField: {
+    fontSize: wp('4.0'),
+    color: Colors.black,
     marginBottom: 10,
   },
   createAccountContainer: {
