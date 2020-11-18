@@ -1,5 +1,0 @@
-//https://www.youtube.com/watch?v=WhzIjYQmWvs&t=252s
-typescript-grapql-curd-sqllight
-
-tsc
-yarn start
