@@ -68,5 +68,4 @@ export default StyleSheet.create({
     fontFamily: Fonts.robotoRegular,
     color: Colors.black_1,
   },
-
 });

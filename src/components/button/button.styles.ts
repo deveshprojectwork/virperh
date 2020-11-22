@@ -1,6 +1,6 @@
-import {StyleSheet} from 'react-native';
-import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
-import {Colors, Fonts} from '../../constants';
+import { StyleSheet } from 'react-native';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
+import { Colors, Fonts } from '../../constants';
 
 export default StyleSheet.create({
   container: {

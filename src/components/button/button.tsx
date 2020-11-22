@@ -1,5 +1,5 @@
-import React, {FC} from 'react';
-import {StyleProp, Text, TouchableOpacity} from 'react-native';
+import React, { FC } from 'react';
+import { StyleProp, Text, TouchableOpacity } from 'react-native';
 
 import Styles from './button.styles';
 
@@ -19,7 +19,8 @@ const Button: FC<ButtonProps> = ({
   return (
     <TouchableOpacity
       onPress={onPress}
-      style={[Styles.container, containerStyle]}>
+      style={[Styles.container, containerStyle]}
+    >
       <Text style={[Styles.title, titleStyle]}>{title}</Text>
     </TouchableOpacity>
   );

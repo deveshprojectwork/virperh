@@ -1,6 +1,6 @@
-import React, {FC} from 'react';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-import {OnBoardingNavigator} from './onboarding-stack';
+import React, { FC } from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { OnBoardingNavigator } from './onboarding-stack';
 
 const AppNavigator: FC = () => {
   return (
@@ -10,4 +10,4 @@ const AppNavigator: FC = () => {
   );
 };
 
-export {AppNavigator};
+export { AppNavigator };

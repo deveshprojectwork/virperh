@@ -19,7 +19,8 @@ const OnBoardingNavigator: FC = () => {
           fontSize: wp('5.6%'),
         },
         headerLeft: () => null,
-      }}>
+      }}
+    >
       <Stack.Screen
         options={{ title: 'Sign In' }}
         name={Routes.SignIn}

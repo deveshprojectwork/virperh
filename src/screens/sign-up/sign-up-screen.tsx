@@ -24,7 +24,9 @@ const SignUpScreen: FC<SignUpScreenProps> = ({ navigation }) => {
         // value={this.state.checked}
         // onValueChange={() => this.setState({ checked: !this.state.checked })}
         />
-        <Text style={Styles.haveAccountText}>{'By Clicking the SignUp  you agree all the Terms and Conditions '}</Text>
+        <Text style={Styles.haveAccountText}>
+          {'By Clicking the SignUp  you agree all the Terms and Conditions '}
+        </Text>
       </View>
       <Button
         onPress={() => console.log('object')}
@@ -32,7 +34,9 @@ const SignUpScreen: FC<SignUpScreenProps> = ({ navigation }) => {
         containerStyle={Styles.createAccountContainer}
       />
       <View style={Styles.haveAccountContainer}>
-        <Text style={Styles.haveAccountText}>{'Already have VirPerH account? '}</Text>
+        <Text style={Styles.haveAccountText}>
+          {'Already have VirPerH account? '}
+        </Text>
         <TouchableOpacity onPress={() => navigation.navigate(Routes.SignIn)}>
           <Text style={Styles.signInText}>Sign In</Text>
         </TouchableOpacity>
