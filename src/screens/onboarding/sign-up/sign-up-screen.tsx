@@ -29,7 +29,7 @@ const SignUpScreen: FC<SignUpScreenProps> = ({ navigation }) => {
         </Text>
       </View>
       <Button
-        onPress={() => console.log('Create VirPerH Account')}
+        onPress={() => navigation.navigate(Routes.Home)}
         title="Create VirPerH Account"
         containerStyle={Styles.createAccountContainer}
       />

@@ -31,7 +31,7 @@ const SignInScreen: FC<SignInScreenProps> = ({ navigation }) => {
         </TouchableOpacity>
       </View>
       <Button
-        onPress={() => console.log('Sign In button pressed object')}
+        onPress={() => navigation.navigate(Routes.Home)}
         title="Sign In"
         containerStyle={Styles.signInContainer}
       />

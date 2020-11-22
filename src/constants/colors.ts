@@ -8,5 +8,6 @@ export enum Colors {
   white_2 = '#EEEEEE',
   gray = '#BDBDBD',
   gray_1 = '#9E9E9E',
+  gray_2 = '#616161',
   facebook = '#3F569A',
 }

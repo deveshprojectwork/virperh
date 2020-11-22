@@ -3,7 +3,12 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import { Colors, Routes } from '../constants';
-import { SignInScreen, SignUpScreen, ForgotPasswordScreen } from '../screens';
+import {
+  SignInScreen,
+  SignUpScreen,
+  ForgotPasswordScreen,
+  HomeScreen,
+} from '../screens';
 import { Fonts } from '../constants';
 
 const Stack = createStackNavigator();
@@ -35,6 +40,11 @@ const OnBoardingNavigator: FC = () => {
         options={{ title: 'Forgot Password' }}
         name={Routes.ForgotPassword}
         component={ForgotPasswordScreen}
+      />
+      <Stack.Screen
+        options={{ title: 'VerPerH' }}
+        name={Routes.Home}
+        component={HomeScreen}
       />
     </Stack.Navigator>
   );
