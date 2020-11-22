@@ -3,7 +3,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
-import { Colors, Fonts } from '../../constants';
+import { Colors, Fonts } from '../../../constants';
 
 export default StyleSheet.create({
   container: {
@@ -67,5 +67,6 @@ export default StyleSheet.create({
     fontWeight: 'bold',
     fontFamily: Fonts.robotoRegular,
     color: Colors.black_1,
+    marginBottom: hp('8%'),
   },
 });

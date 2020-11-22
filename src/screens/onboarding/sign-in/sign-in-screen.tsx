@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
-import { Button, ScrollView, TextField } from '../../components';
-import { Routes } from '../../constants';
+import { Button, ScrollView, TextField } from '../../../components';
+import { Routes } from '../../../constants';
 
 import Styles from './sign-in-screen.styles';
 
@@ -24,7 +24,9 @@ const SignInScreen: FC<SignInScreenProps> = ({ navigation }) => {
             <Text style={Styles.rememberMeText}>Remember me</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => navigation.navigate(Routes.ForgotPassword)}
+        >
           <Text style={Styles.forgotPasswordText}>Forgot Password</Text>
         </TouchableOpacity>
       </View>

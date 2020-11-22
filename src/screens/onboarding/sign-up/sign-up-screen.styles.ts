@@ -3,7 +3,7 @@ import {
   heightPercentageToDP as hp,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
-import { Colors, Fonts } from '../../constants';
+import { Colors, Fonts } from '../../../constants';
 
 export default StyleSheet.create({
   container: {

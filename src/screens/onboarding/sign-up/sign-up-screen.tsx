@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { CheckBox } from 'react-native';
 import { Text, TouchableOpacity, View } from 'react-native';
-import { Button, ScrollView, TextField } from '../../components';
-import { Routes } from '../../constants';
+import { Button, ScrollView, TextField } from '../../../components';
+import { Routes } from '../../../constants';
 
 import Styles from './sign-up-screen.styles';
 
@@ -29,8 +29,8 @@ const SignUpScreen: FC<SignUpScreenProps> = ({ navigation }) => {
         </Text>
       </View>
       <Button
-        onPress={() => console.log('object')}
-        title="Create An VirPerH Account"
+        onPress={() => console.log('Create VirPerH Account')}
+        title="Create VirPerH Account"
         containerStyle={Styles.createAccountContainer}
       />
       <View style={Styles.haveAccountContainer}>
