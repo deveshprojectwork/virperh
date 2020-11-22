@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Text, View } from 'react-native';
+import { Text, TouchableNativeFeedback, View } from 'react-native';
 import { ScrollView } from '../../../components';
 import Styles from './home-screen.styles';
 
@@ -15,10 +15,12 @@ const HomeScreen: FC<HomeScreenProps> = () => {
       </View>
       <View style={Styles.menusContainer}>
         {Array.from(Array(8).keys()).map((item) => (
-          <View key={item} style={Styles.menuContainer}>
-            <View style={Styles.menuIcon} />
-            <Text style={Styles.menuText}>Dashboard</Text>
-          </View>
+          <TouchableNativeFeedback key={item}>
+            <View style={Styles.menuContainer}>
+              <View style={Styles.menuIcon} />
+              <Text style={Styles.menuText}>Dashboard</Text>
+            </View>
+          </TouchableNativeFeedback>
         ))}
       </View>
     </ScrollView>

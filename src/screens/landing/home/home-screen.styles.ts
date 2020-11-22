@@ -36,8 +36,8 @@ export default StyleSheet.create({
     width: wp('25%'),
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 25,
-    // backgroundColor: 'red',
+    marginBottom: 5,
+    paddingVertical: 10,
   },
   menuIcon: {
     height: 60,
